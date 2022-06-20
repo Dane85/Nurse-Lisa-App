@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const port = process.env.PORT || 3000;
 
 
 // set the view engine to ejs
@@ -25,5 +26,7 @@ app.get('/about', function(req, res) {
   res.render('pages/about');
 });
 
-app.listen(8080);
-console.log('Server is listening on port 8080');
+//listening port
+app.listen(process.env.PORT || port, () => {
+  console.log(`App listening at port ${port}`)
+})
