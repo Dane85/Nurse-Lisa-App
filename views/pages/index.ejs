@@ -5,14 +5,32 @@
   <%- include('../partials/head'); %>
 </head>
 
-<body class="container">
+<style>
+  .bio{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prices{
+    display: flex;
+    justify-content: center;
+    margin: 50px;    
+  }
+
+  .jumbotron{
+    margin-top: 50px;
+  }
+</style>
+
+<body>
 
   <header>
     <%- include('../partials/header'); %>
   </header>
 
   <main>
-    <div class="jumbotron">
+    <div class="jumbotron container">
       <img style="width: 100%;" src="\images\Facebook Cover 1000x515 px.jpeg" alt="">
     </div>
     <div class="container googleReviews">
@@ -20,6 +38,30 @@
       <div class="elfsight-app-db34ded8-29ec-4182-9cf7-3b61a5cb6362"></div>
     </div>
   </main>
+
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-lg">
+        <img style="width: 100%;" src="https://nurseinjectorlisa.ca/Images/Lisa.png" alt="">
+      </div>
+      <div class="col-sm bio">
+        <div class="container">
+          <h1 style="font-family: 'Times New Roman', Times, serif; font-size: 2rem;">Lisa Andreae</h1>
+          <p style="font-size: 1.5rem; font-family: 'Times New Roman', Times, serif;">For the past 18 years I have specialized in Mental Health Nursing. Though I have explored in other areas, I have always come back to Mental Health as my passion. Despite my love for this area of nursing, I decided It was time venture out and explore another area I ‘ve always wanted to pursue, Medical Aesthetics. As such, I decided to enroll at the Canadian Association for Medical Aesthetics, where I took a comprehensive course on basic and advanced injecting. I can truly say that I have finally found my calling and a rejuvenated love for nursing through injecting. Following completion of my studies, I took a mentorship to continue to develop and build upon the skills I had learned in my courses. Through this, process I have learned so much and am excited to work with my clients to achieve their own cosmetic goals.</p>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="prices" id="services">
+    <div style="text-align: center;" class="container">
+      <img style="width: 100%;" src="\images\Facebook Ad 1200x628 px.png" alt="">
+      <br>
+      <br>
+      <img style="width: 100%;" src="\images\Invoice 21x29.7 сm.png" alt="">
+    </div>
+  </div>
 
   <footer>
     <%- include('../partials/footer'); %>
