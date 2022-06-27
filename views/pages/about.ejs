@@ -1,0 +1,64 @@
+<style>
+    .lisaIntro{
+      background-color: #B6BDC5;
+    }
+
+    .lisa{
+      border-radius: 158px 0px 203px 0px / 98px 0px 114px 0px;      padding: 50px;
+      max-height: 700px;
+      box-shadow: 0 0 10px #BDF2F0;
+      margin: 25px;
+    }
+
+    .bio{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 100px;
+    }
+    p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+   .bio {
+    background-color: lightblue;
+    padding: 10px;
+    }
+
+    .lisa{
+        width: 100%;
+    }
+}
+</style>
+
+
+<%- include('../partials/head'); %>
+<%- include('../partials/nav'); %>
+
+    <div class="container-fluid lisaIntro">
+        <div class="row">
+          <div class="col-lg bio">
+            <div data-aos="fade-up">
+                <img class="lisa" src="\images\Lisa.png">
+            </div>
+          </div>
+          <div class="col center bio" style="text-align: center; padding: 50px">
+            <div data-aos="fade-left">
+                <p style="color: #595d61;  font-family: cursive">For the past 18 years I have specialized in Mental Health Nursing. Though I have explored in other areas, I have always come back to Mental Health as my passion. Despite my love for this area of nursing, I decided It was time venture out and explore another area I ‘ve always wanted to pursue, Medical Aesthetics. As such, I decided to enroll at the Canadian Association for Medical Aesthetics, where I took a comprehensive course on basic and advanced injecting. I can truly say that I have finally found my calling and a rejuvenated love for nursing through injecting. Following completion of my studies, I took a mentorship to continue to develop and build upon the skills I had learned in my courses. Through this, process I have learned so much and am excited to work with my clients to achieve their own cosmetic goals.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <%- include('../partials/footer'); %>
