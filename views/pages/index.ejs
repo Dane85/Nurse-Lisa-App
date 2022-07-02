@@ -1,36 +1,63 @@
+<%- include('../partials/head'); %>
+<%- include('../partials/nav'); %>
 
-  <%- include('../partials/head'); %>
-  <%- include('../partials/nav'); %>
 
-
-  <style>
-
-    .center{
-      text-align: center;
-    }
-
-    .openingBanner{
-      text-align: center;
-      margin-top: 60px;
-    }
-    .openingImg{
-      width: 100%;
-      padding: 35px;
-      border-radius: 10%;
-    }
-
-    @media only screen and (max-width: 600px) {
-      .openingImg{
-        width: 100%;
-      }
-    }
-
-    </style>
 
 <div data-aos="fade-up">
-  <div class="container-fluid openingBanner">
-    <img class="openingImg" style="width: 90%;" src="\images\Facebook Cover 851x315 px.png" alt="">
+  <div class="container opening" style="position:relative">
+    <img class="" style="width: 100%;" src="\images\Blog Header 1200x600 px.png" alt="">
+    <a href="#"><button class="btn bg-primary bookNowBtn">Book Now</button>
+    </a>
   </div>
+</div>
+
+<div data-aos="fade-up">
+  <div class="row">
+    <div class="col whatIsBotox">
+      <div class="center">
+        <h1 style="font-family: cursive;">The Studio</h1>
+        <br>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem;">Mauris blandit aliquet elit, eget
+          tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+          Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam
+          vel, ullamcorper sit amet ligula.</p>
+      </div>
+    </div>
+    <div class="col">
+      <img class="info2Photo" src="\images\lisaStudio.png" alt="">
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up">
+  <div class="row">
+    <div class="col-lg"><img class="info1Photo" style="padding: 25px;"
+        src="https://cdn.create.vista.com/api/media/medium/141463772/stock-photo-female-botox-injection?token=caWFhGKAIUoZ78XaADMSj6D1pBf2lxILKLxM96oYiKHzGMoDQIogkbF03DCYM4F8"
+        alt=""></div>
+    <div class="col container whatIsBotox">
+      <div class="container" style="text-align: center;">
+        <h1 style="font-family: cursive;">What is Botox</h1>
+        <div class="container whatIsBotox" style="padding: 50px; text-align: center;">
+          <br>
+          <p style="font-family: 'Times New Roman', Times, serif; font-size: 1.5rem;">
+            Botox® Cosmetic is the most popular cosmetic procedure in the world.
+            It is a neurotoxin that is treatment injected into different muscles in the face in order to temporarily
+            improve
+            the look of fine lines and wrinkles.
+            <br>
+            Botox injections block the nerve impulse from reaching targeted muscle areas, as the muscle relaxes the
+            overlying wrinkle is smoothed and improved.
+            <a href="#"><button class="btn bg-primary bookNowBtn">Book Now</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div data-aos="fade-up">
+  <div class="row"></div>
 </div>
 
 
@@ -38,4 +65,4 @@
 
 
 
-  <%- include('../partials/footer'); %>
+<%- include('../partials/footer'); %>

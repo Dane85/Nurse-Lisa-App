@@ -1,0 +1,63 @@
+
+
+
+body{
+  background-color: #dafeff;
+}
+
+.center {
+    text-align: center;
+  }
+
+  .openingBanner {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .opening {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .bookNowBtn{
+    color: #B5BCC4;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    font-size: 32px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .openingImg {
+      width: 100%;
+    }
+
+    .btn{
+      width: 100px;
+      font-size: 1.5rem;
+    }
+
+
+  }
+
+  .whatIsBotox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #B5BCC4;
+  }
+
+  .info1{
+    margin-top: 50px;
+  }
+
+  .info1Photo{
+    width: 100%;
+    border-radius: 94% 6% 93% 7% / 5% 92% 8% 95%  ;
+  }
+
+  .info2Photo{
+    padding: 50PX;
+    border-radius: 94% 6% 93% 7% / 5% 92% 8% 95% ;
+  }
