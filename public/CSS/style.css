@@ -1,5 +1,13 @@
 
+h1{
+  font-family: cursive;
+  font-size: 2.0rem;
+}
 
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
 
 body{
   background-color: #dafeff;
@@ -60,4 +68,24 @@ body{
   .info2Photo{
     padding: 50PX;
     border-radius: 94% 6% 93% 7% / 5% 92% 8% 95% ;
+    width: 100%;
+  }
+
+  .info3Photo{
+    border-radius: 100% 0% 100% 0% / 31% 64% 36% 69% ;
+    width: 100%;
+  }
+  .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .border{
+    border-radius: 30% 70% 29% 71% / 74% 24% 76% 26% ;
+  }
+
+  .map{
+    width: 100%;
+    margin-top: 50px;
   }
